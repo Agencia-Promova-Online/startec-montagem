@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "title": "Guia completo de Barramento Blindado (Busway)",
+    "slug": "guia-completo-barramento-blindado-busway",
+    "description": "Entenda componentes, aplicações e vantagens do sistema busway em projetos modernos.",
+    "imageUrl": "https://thorusengenharia.com.br/wp-content/uploads/2020/07/barrameto-blindado-capa.jpg",
+    "content": "<p>O barramento blindado (busway) é um sistema modular de distribuição de energia elétrica que substitui cabos tradicionais por barras condutoras encapsuladas. Ele oferece alta capacidade de corrente, flexibilidade de expansão e segurança operacional. Neste guia, exploramos tipos (barra espaçada, compacta e ventilada), aplicações em edifícios comerciais e industriais, além de práticas de instalação e manutenção.</p><p>Entre os principais benefícios estão: menor queda de tensão, organização do projeto, rapidez de montagem e melhor dissipação térmica. Para especificar o busway ideal, considere corrente nominal, ambiente de instalação, rotas e pontos de derivação.</p>"
+  },
+  {
+    "id": "2",
+    "title": "Qual o barramento blindado idela para seu projeto",
+    "slug": "qual-o-barramento-blindado-ideal-para-seu-projeto",
+    "description": "Critérios práticos de seleção: corrente, ambiente, expansão e manutenção.",
+    "imageUrl": "https://static.wixstatic.com/media/dc97d1_ce01dc5e69d6428398464093827567b4~mv2.jpg/v1/fill/w_682,h_449,al_c,lg_1,q_80/dc97d1_ce01dc5e69d6428398464093827567b4~mv2.jpg",
+    "content": "<p>A escolha do barramento blindado adequado depende de requisitos técnicos e operacionais do projeto. Avalie corrente nominal, condições ambientais (temperatura, umidade), necessidade de derivação, distância entre cargas e planos de expansão futura.</p><p>Modelos compactos são ideais para espaços reduzidos; ventilados favorecem dissipação térmica em alta carga; barra espaçada atende grandes correntes com robustez. Consulte normas aplicáveis e mantenha documentação técnica atualizada.</p>"
+  },
+  {
+    "id": "3",
+    "title": "Benefícios do barramento blindado: eficiência e segurança",
+    "slug": "beneficios-barramento-blindado-eficiencia-seguranca",
+    "description": "Redução de perdas, montagem rápida e confiabilidade operacional em destaque.",
+    "imageUrl": "https://static.wixstatic.com/media/dc97d1_5df6e3c2fbe74867bcc2a8f6bbc8d160~mv2.jpg/v1/fill/w_568,h_374,al_c,q_80,enc_avif,quality_auto/dc97d1_5df6e3c2fbe74867bcc2a8f6bbc8d160~mv2.jpg",
+    "content": "<p>O busway melhora a eficiência energética ao reduzir perdas e organizar rotas de distribuição com precisão. A montagem modular acelera cronogramas de obra e diminui riscos.</p><p>Além disso, sua construção blindada aumenta a segurança e facilita inspeções, com manutenção preventiva simplificada. Em empreendimentos de médio e grande porte, os ganhos de confiabilidade e escalabilidade são significativos.</p>"
+  }
+]
+

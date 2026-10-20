@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://startecmontagem.com.br/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://startecmontagem.com.br/artigos/guia-completo-barramento-blindado-busway</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/produtos/imagem-barra-espacada?t=2023-11-01T16%3A02%3A00.395Z</image:loc>
+      <image:title>Guia completo de Barramento Blindado (Busway)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://startecmontagem.com.br/artigos/como-escolher-barramento-blindado-para-seu-projeto</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/produtos/imagem-compacto-de-barra-colada.webp</image:loc>
+      <image:title>Como escolher o barramento blindado para seu projeto</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://startecmontagem.com.br/artigos/beneficios-barramento-blindado-eficiencia-seguranca</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/produtos/imagem-barramento-ventilado.webp</image:loc>
+      <image:title>Benefícios do barramento blindado: eficiência e segurança</image:title>
+    </image:image>
+  </url>
+</urlset>
