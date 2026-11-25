@@ -1,11 +1,23 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import logo23 from '../assets/logo/Ativo 23.png'
 
 export default function Header() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    const doScroll = () => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(doScroll, 120);
+    } else {
+      doScroll();
     }
   };
 
@@ -60,12 +72,6 @@ export default function Header() {
               Contato
             </button>
           </nav>
-          <button
-            onClick={() => scrollToSection('contact')}
-            className="bg-[#ff8a3b] text-white px-6 py-2 rounded-lg hover:bg-[#ff7722] transition-colors"
-          >
-            Fale Conosco
-          </button>
         </div>
       </div>
     </header>

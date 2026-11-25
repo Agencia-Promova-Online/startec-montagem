@@ -158,28 +158,34 @@ export default function ArticleDetail() {
               <button
                 type="button"
                 onClick={handleShare}
-                className="inline-flex items-center gap-2 bg-[#ff8a3b] text-white px-5 py-2.5 rounded-lg hover:bg-[#ff7722] transition-colors font-semibold"
+                aria-label="Compartilhar"
+                title="Compartilhar"
+                className="inline-flex items-center justify-center gap-2 bg-[#ff8a3b] text-white p-3 md:px-5 md:py-2.5 rounded-lg hover:bg-[#ff7722] transition-colors font-semibold"
               >
                 <Share2 className="w-5 h-5" />
-                Compartilhar
+                <span className="hidden md:inline">Compartilhar</span>
               </button>
               <a
                 href={INSTAGRAM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-gradient-to-br from-[#f58529] via-[#dd2a7b] to-[#8134af] text-white px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+                aria-label="Instagram"
+                title="Instagram"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-br from-[#f58529] via-[#dd2a7b] to-[#8134af] text-white p-3 md:px-5 md:py-2.5 rounded-lg hover:opacity-90 transition-opacity font-semibold"
               >
                 <Instagram className="w-5 h-5" />
-                Instagram
+                <span className="hidden md:inline">Instagram</span>
               </a>
               <a
                 href={MAPS_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#4285F4] text-white px-5 py-2.5 rounded-lg hover:bg-[#357ae8] transition-colors font-semibold"
+                aria-label="Como chegar"
+                title="Como chegar"
+                className="inline-flex items-center justify-center gap-2 bg-[#4285F4] text-white p-3 md:px-5 md:py-2.5 rounded-lg hover:bg-[#357ae8] transition-colors font-semibold"
               >
                 <MapPin className="w-5 h-5" />
-                Como chegar
+                <span className="hidden md:inline">Como chegar</span>
               </a>
               {shareFeedback && (
                 <span className="text-sm text-gray-600">{shareFeedback}</span>
