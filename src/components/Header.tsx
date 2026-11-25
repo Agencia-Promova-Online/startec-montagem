@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo23 from '../assets/logo/Ativo 23.png'
 
 export default function Header() {
@@ -46,6 +47,12 @@ export default function Header() {
             >
               Clientes
             </button>
+            <Link
+              to="/blog"
+              className="text-gray-600 hover:text-[#ff8a3b] transition-colors"
+            >
+              Blog
+            </Link>
             <button
               onClick={() => scrollToSection('contact')}
               className="text-gray-600 hover:text-[#ff8a3b] transition-colors"

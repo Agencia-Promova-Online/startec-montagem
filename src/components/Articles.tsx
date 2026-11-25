@@ -49,6 +49,15 @@ export default function Articles() {
             </article>
           ))}
         </div>
+
+        <div className="text-center mt-12">
+          <Link
+            to="/blog"
+            className="inline-block bg-[#ff8a3b] text-white px-8 py-3 rounded-lg hover:bg-[#ff7722] transition-colors font-semibold"
+          >
+            Ver Mais artigos
+          </Link>
+        </div>
       </div>
     </section>
   );

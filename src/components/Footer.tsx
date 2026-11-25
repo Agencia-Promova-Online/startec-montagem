@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
 import logo25 from '../assets/logo/Ativo 25.png'
 
@@ -42,6 +43,11 @@ export default function Footer() {
                 <a href="#clients" className="text-gray-400 hover:text-[#ff8a3b] transition-colors">
                   Clientes
                 </a>
+              </li>
+              <li>
+                <Link to="/blog" className="text-gray-400 hover:text-[#ff8a3b] transition-colors">
+                  Blog
+                </Link>
               </li>
               <li>
                 <a href="#contact" className="text-gray-400 hover:text-[#ff8a3b] transition-colors">

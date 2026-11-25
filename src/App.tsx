@@ -4,6 +4,7 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ArticleDetail from './pages/ArticleDetail';
+import Blog from './pages/Blog';
 import ThankYou from './pages/ThankYou';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <FloatingWhatsApp />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/artigos/:slug" element={<ArticleDetail />} />
         <Route path="/obrigado" element={<ThankYou />} />
       </Routes>
